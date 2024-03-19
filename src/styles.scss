@@ -1,0 +1,27 @@
+@import '~@angular/material/theming';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import 'assets/scss/utils/fonts';
+@import 'assets/scss/utils/typography';
+@import 'assets/scss/utils/color';
+@import 'assets/scss/components/sidebar';
+@import 'assets/scss/components/material';
+@import 'assets/scss/components/button';
+@import 'assets/scss/components/carousel';
+
+$dark-theme-primary: mat-palette($mat-indigo);
+$dark-theme-accent: mat-palette($mat-pink, A200, A100, A400);
+$dark-theme-warn: mat-palette($mat-deep-orange);
+$dark-theme: mat-dark-theme($dark-theme-primary, $dark-theme-accent, $dark-theme-warn);
+
+@include angular-material-theme($dark-theme);
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #212529;
+	color: #ffffff;
+}

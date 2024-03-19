@@ -1,0 +1,79 @@
+.button-primary {
+	background-color: #1f1f1f;
+	border-radius: 10px;
+}
+
+.button-default {
+	background-color: transparent;
+
+	&:hover {
+		background-color: #1f1f1f;
+	}
+}
+
+.button-pink {
+	background-color: #eb395abd;
+	border-radius: 20px;
+
+	&:hover {
+		background-color: #EB395A;
+	}
+}
+
+.button-outline {
+	background-color: transparent;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+
+	&:hover {
+		border: 1px solid #EB395A;
+	}
+
+	&.active {
+		background-color: #EB395A;
+		border: 1px solid #EB395A;
+	}
+
+	&.w-5 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.button-filter {
+	flex: 1 0 40%;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	&.active {
+		background-color: #EB395A;
+		border: 1px solid #EB395A;
+	}
+}
+
+@media (min-width: 768px) {
+	.button-filter {
+		flex: 1 0 20%;
+		margin-bottom: 0;
+	}
+}
+
+
+button {
+	color: #FFF;
+	outline: none;
+	border: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 20px;
+		height: 20px;
+	}
+}

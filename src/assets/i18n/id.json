@@ -1,0 +1,19 @@
+{
+	"overview": "Ringkasan",
+	"movie": "Film",
+	"genre": "Genre",
+	"favorite": "Favorit",
+	"coming-soon": "Segera Tayang",
+	"now-playing": "Sedang Tayang",
+	"add-fav": "Tambahkan ke favorit",
+	"success-insert-msg": "Berhasil menambah ke favorit",
+	"success-remove-msg": "Berhasil menghapus dari favorit",
+	"close": "Tutup",
+	"see-detail": "Selengkapnya",
+	"popular": "Populer",
+	"top-rated": "Rating Tertinggi",
+	"upcoming": "Segera Tayang",
+	"empty": "Tidak ada film favorit saat ini",
+	"recomendation": "Rekomendasi",
+	"search": "Cari..."
+}

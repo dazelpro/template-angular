@@ -1,0 +1,19 @@
+{
+	"overview": "Overview",
+	"movie": "Movie",
+	"genre": "Genre",
+	"favorite": "Favorite",
+	"coming-soon": "Coming Soon",
+	"now-playing": "Now Playing",
+	"add-fav": "Add to favorite",
+	"success-insert-msg": "Successfully added to favorites",
+	"success-remove-msg": "Successfully remove from favorites",
+	"close": "Close",
+	"see-detail": "See detail",
+	"popular": "Popular",
+	"top-rated": "Top Rated",
+	"upcoming": "Upcoming",
+	"empty": "No favorite movies yet.",
+	"recomendation": "Recommendation",
+	"search": "Search..."
+}

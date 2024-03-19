@@ -1,0 +1,15 @@
+<div class="card-custom mb-3"
+	(click)="goToDetail(movie.id)">
+	<img [src]="getImageUrlPoster(movie.poster_path)"
+		class="card-img-top"
+		alt="{{ movie.title }}">
+	<div class="card-body">
+		<h5 class="card-title to-1">{{ movie.title }}</h5>
+		<p class="card-text fs-14 to-2">{{ movie.overview }}</p>
+		<div class="d-flex align-items-center gap-2">
+			<img src="assets/images/icons/star-fill.svg"
+				alt="">
+			<span>{{movie.vote_average.toFixed(1)}}</span>
+		</div>
+	</div>
+</div>

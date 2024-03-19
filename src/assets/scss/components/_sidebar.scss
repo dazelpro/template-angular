@@ -1,0 +1,22 @@
+.layout-container {
+	display: flex;
+	height: 100vh;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.layout-sidenav-content {
+	flex: 1;
+}
+
+.layout-sidenav {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mat-drawer.mat-drawer-side {
+	background: #303030;
+}
+
+.mat-drawer-content {
+	overflow-x: hidden !important;
+}
